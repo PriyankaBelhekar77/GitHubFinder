@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const UserDetails = (props) => {
-  const { avatar_url, html_url, login } = props.user;
+  const { avatar_url, login } = props.user;
   return (
     <div className='card text-center'>
       <img className='round-img' alt='' src={avatar_url} style={{ width: '50px', height: '50px' }}></img>
