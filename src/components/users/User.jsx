@@ -22,7 +22,6 @@ const User = (props) => {
     following,
     public_repos,
     public_gists,
-    hireable,
     company
   } = props.user;
 
