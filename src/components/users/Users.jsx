@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import UserDetails from './UserDetails';
 import Spinner from '../layout/Spinner';
